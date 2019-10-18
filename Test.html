@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+		<script>
+				 document.onkeydown = function (event) {
+				            var e = event || window.event || arguments.callee.caller.arguments[0];
+				            if (e && e.keyCode == 123) { // 按 F12 
+				                //要做的事情
+				                alert("废物还想看源码？");
+								window.event.returnValue = false;  
+								return false;
+				            }
+				            if (e && e.keyCode == 116||e.keyCode==73) { // 按 F2 
+				                //要做的事情
+				                alert("别看了  学不会的！！”");
+								window.event.returnValue = false; 
+				            }
+				           
+				        }; 
+		</script>
+	</head>
+
+	<body>
+		<p>
+		<div style="height: 300px; width: 500px; border: red; color: red;font-size: 8px;">美女你心动吗</div>
+		
+		</p>
+	</body>
+
+</html>
